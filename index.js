@@ -16,3 +16,5 @@ function currentLine(line) {
       number.push(`${i + 1}. ${line[i]}`) }
      return `The line is currently: ${number.join(', ')}`
      }
+     //interpolatig cause its easier then string concatinating 
+     //string interpolation 
