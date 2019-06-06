@@ -1,3 +1,4 @@
 function takeANumber(line, name) {
   var message = []
-  message.push(`Welcome, ${name}. You are number ${line} in line.`); return message }
+  var i = i + 1
+  message.push(`Welcome, ${name}. You are number ${line[i]} in line.`); return message }
