@@ -14,4 +14,4 @@ function nowServing(line) {
     var i = 0
     else if (line.slice(- 1))
    { return `The line is currently ${i + 1}. ${line.length[i]}`}
-  else { return `The line is currently ${i + 1}. ${line.length[i]}, }
+  else { return `The line is currently ${i + 1}. ${line.length[i]}, } }
