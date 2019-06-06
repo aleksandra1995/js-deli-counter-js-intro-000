@@ -10,3 +10,4 @@ function takeANumber(line, name) {
     return `Currently serving ${line.shift()}.`
 }
 // why couldnt i use else? i had to use return 
+function currentLine(line) {
