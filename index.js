@@ -11,7 +11,7 @@ function takeANumber(line, name) {
 function currentLine(line) {
   if (line.length === 0) { 
     return "The line is currently empty."}
-    const number = []
+    var number = []
     for (var i = 0; i < line.length; i++) {
       number.push(`${i + 1}. ${line[i]}`) }
      return `The line is currently: ${number.join(', ')}`
