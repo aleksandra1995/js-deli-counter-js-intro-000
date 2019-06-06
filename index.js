@@ -14,6 +14,6 @@ function nowServing(line) {
       return "The line is currently empty."}
     else if (line.slice(- 1))
    { return `The line is currently ${i + 1}. ${line.length[i]}`}
-  return `The line is currently ${i + 1}. ${line.length[i]}`, }
+  return `The line is currently ${i + 1}. ${line.length[i]},` }
   
   
