@@ -7,5 +7,6 @@ function takeANumber(line, name) {
   function nowServing(line) {
   if (line.length === 0) { 
     return "There is nobody waiting to be served!" }
-    return `Currently serving ${line.shift()}.`
+    else { `Currently serving ${line.shift()}.`}
 }
+// why couldnt i use else? i had to use return 
