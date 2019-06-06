@@ -6,5 +6,5 @@ function nowServing(line) {
   var i = 0
   if (i < line.length) {
     return 
-  } else {"The line is currently empty."}
+  } else {"There is nobody waiting to be served!"}
 }
