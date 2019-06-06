@@ -7,7 +7,7 @@ function takeANumber(line, name) {
     return "There is nobody waiting to be served!" }
     return `Currently serving ${line.shift()}.`
 }
-// why couldnt i use else? i had to use return 
+// why couldnt i use else? i had to use return. 
 function currentLine(line) {
   if (line.length === 0) { 
     return "The line is currently empty."}
