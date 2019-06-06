@@ -9,6 +9,7 @@ function nowServing(line) {
   // else was not working because i wasnt using return with it. 
   
   function currentLine(line) {
+    var i = 0
     if (line.length === 0) {
       return "The line is currently empty."}
     else if (line.slice(- 1))
