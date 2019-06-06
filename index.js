@@ -6,5 +6,6 @@ function takeANumber(line, name) {
   // to put in array i was getting 0 insted of 1 
   function nowServing(line) {
     if (0> line.length) {
-      line.shift
+      line.shift()
+      return line
   } else {"There is nobody waiting to be served"} }
