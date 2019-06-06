@@ -5,6 +5,6 @@ function takeANumber(line, name) {
 function nowServing(line) {
   var i = 0
   if (i < line.length) {
-    return line.push()
+    return ("line.shift())
   } else if (i === line.lenght) {"There is nobody waiting to be served!"}
 }
