@@ -5,6 +5,7 @@ function takeANumber(line, name) {
   //it wasnt an arry so the index number wasnt 0. when tried
   // to put in array i was getting 0 insted of 1 
   function nowServing(line) {
-    if (line.length === 0) {
+  if (line.length === 0) { 
     return "There is nobody waiting to be served!" }
-    return `Currently serving ${line.shift().` }
+    return `Currently serving ${line.shift()}.`
+}
