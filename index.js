@@ -4,5 +4,7 @@ function takeANumber(line, name) {
 }
 function nowServing(line) {
   var i = 0
-  if (i line.length)
+  if (i < line.length) {
+    return 
+  }
 }
