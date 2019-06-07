@@ -14,8 +14,8 @@ function nowServing(line) {
       var newLine = []
       for (var i = 0; i < line.length; i++);
     {if (line.length - 1)
-     { return `The line is currently: ${i + 1}. ${line.length[i]}`} 
-      else { return `The line is currently: ${i + 1}. ${line.length[i]},`} }}
+     { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]}`)} 
+      else { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]},`)} }}
     
     
   
