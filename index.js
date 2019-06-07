@@ -14,7 +14,7 @@ function nowServing(line) {
       var newLine = []
       for (var i = 0; i < line.length; i++) {
         newLine.push(`${i + 1}. ${line[i]}`)
-   return `The line is currently: ${number.join(', ')}`
+   return `The line is currently: ${newLine.join(', ')}`
       } }
     
     
