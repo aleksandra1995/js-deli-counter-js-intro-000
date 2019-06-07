@@ -14,7 +14,7 @@ function nowServing(line) {
       return "The line is currently empty."}
       var lineNew = []
     lineNew.push(`The line is currently: ${i + 1}. ${line.length[i]}`)
-    return line.toString(newLine) }
+    return line.toString(lineNew) }
     
   
   
