@@ -14,8 +14,12 @@ function nowServing(line) {
       var newLine = []
       for (var i = 0; i < line.length; i++);
     {if (line.length - 1)
-     { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]}`)} 
-      else { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]},`)} }}
+     { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]}`)
+       return newLine
+     } 
+      else { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]},`)
+        retuen newLine
+      } }}
       /* did not work. .toSlice did not work either. 
       
     
