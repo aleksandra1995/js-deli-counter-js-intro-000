@@ -18,9 +18,8 @@ function nowServing(line) {
        return newLine
      } 
       else { newLine.push(`The line is currently: ${i + 1}. ${line.length[i]},`)
-        retuen newLine
-      } }}
-      /* did not work. .toSlice did not work either. 
+        return newLine } }}
+      /* did not work. .toSlice did not work either. */
       
     
     
