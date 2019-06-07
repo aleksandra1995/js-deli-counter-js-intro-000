@@ -17,7 +17,6 @@ function nowServing(line) {
    return `The line is currently: ${newLine.join(', ')}`
       } 
         
-        /*did not work. .toSlice did not work either. */
       
     
     
