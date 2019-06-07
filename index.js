@@ -9,12 +9,13 @@ function nowServing(line) {
   // else was not working because i wasnt using return with it. 
   
   function currentLine(line) {
-    var i = 0
     if (line.length === 0) {
       return "The line is currently empty."}
-      var lineNew = []
+      var lineNew = [] 
+      for (var i = 0, i< line.length, i++)
+      {
     lineNew.push(`The line is currently: ${i + 1}. ${line.length[i]}`)
-    return line.toString(lineNew) }
+    return line.toString(lineNew) } }
     
   
   
