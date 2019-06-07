@@ -13,7 +13,7 @@ function nowServing(line) {
       return "The line is currently empty."}
       var lineNew = [] 
       for (var i = 0; i < line.length; i++);
-      { else if (line.length-1)
+    { else if (line.length-1)
       return lineNew.push(`The line is currently: ${i + 1} . ${line.length[i]}`)} }
     
     
