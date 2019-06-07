@@ -12,7 +12,7 @@ function nowServing(line) {
     var i = 0
     if (line.length === 0) {
       return "The line is currently empty."} 
-    line.toString()
+    return line.toString(`The line is currently: )
   }
     
   
